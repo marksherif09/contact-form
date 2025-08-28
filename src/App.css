@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(31, 30, 44);
+  color: white;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.form {
+
+  width: 70% !important;
+  background-color: rgb(89, 91, 99);
+  border-radius: 10px;
+}
